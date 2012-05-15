@@ -29,6 +29,16 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/jim/android-sdk-linux/tools:/home/jim/android-sdk-linux/platform-tools
 
 #aliases
-sgedit='sudo gedit'
-webroot='cd /var/www'
+alias www='cd /var/www'
+
+# check if drush is installed
+if [[ -x `which drush` ]]; then
+  alias drache='drush cc all'
+  alias drdl='drush dl'
+  alias dren='drush en $1 -y'
+  alias dris='drush dis $1 -y'
+  alias drun='drush pm-uninstall $1 -y'
+fi
+
+alias restarta='sudo service apache2 restart'
 
