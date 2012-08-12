@@ -43,3 +43,9 @@ fi
 
 alias restarta='sudo service apache2 restart'
 
+#no autosuggest for certain commands
+if [ -f ~/.zsh_nocorrect ]; then
+    while read -r COMMAND; do
+        alias $COMMAND="nocorrect $COMMAND"
+    done < ~/.zsh_nocorrect
+fi
