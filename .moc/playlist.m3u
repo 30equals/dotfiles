@@ -1,5 +1,5 @@
 #EXTM3U
-#MOCSERIAL: 0
+#MOCSERIAL: 1792
 #EXTINF:37,1 Andy Stott - Signature (Passed Me By)
 /home/jim/music/nas/Andy Stott/Andy Stott - Passed Me By/01 - Signature.mp3
 #EXTINF:381,2 Andy Stott - New Ground (Passed Me By)
@@ -14,3 +14,9 @@
 /home/jim/music/nas/Andy Stott/Andy Stott - Passed Me By/06 - Execution.mp3
 #EXTINF:414,7 Andy Stott - Passed Me By (Passed Me By)
 /home/jim/music/nas/Andy Stott/Andy Stott - Passed Me By/07 - Passed Me By.mp3
+#EXTINF:77,/home/jim/music/Jim & rik & tim - rehearsel/1.mp3
+/home/jim/music/Jim & rik & tim - rehearsel/1.mp3
+#EXTINF:37,/home/jim/music/Jim & rik & tim - rehearsel/2.mp3
+/home/jim/music/Jim & rik & tim - rehearsel/2.mp3
+#EXTINF:100,/home/jim/music/Jim & rik & tim - rehearsel/3.mp3
+/home/jim/music/Jim & rik & tim - rehearsel/3.mp3
