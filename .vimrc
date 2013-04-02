@@ -9,3 +9,4 @@ set shiftwidth=4
 set expandtab
 
 autocmd vimenter * NERDTree 
+colorscheme jellybeans
