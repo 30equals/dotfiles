@@ -1,3 +1,5 @@
+autoload -U colors && colors
+
 source ~/.zsh/config-color.zsh
 source ~/.zsh/config-prompt.zsh
 
@@ -18,7 +20,7 @@ if [[ -x `which drush` ]]; then
 fi
 
 alias vafy1="echo 'Box: PHP 5.3 Solr 3.6'; cp -r ~/workspace/vagrant/precise-php53-solr36/Vagrantfile .; cp -r ~/workspace/vagrant/scripts .; cp -r ~/workspace/vagrant/precise-php53-solr36/scripts ."
-alias vafy2="cp -r ~/workspace/vagrant/squeeze64lamp52/Vagrantfile .; cp -r ~/workspace/vagrant/squeeze64lamp52/scripts ."
+alias vafy2="echo 'Box: PHP 5.3 Solr 4.6'; cp -r ~/workspace/vagrant/precise-php53-solr46/Vagrantfile .; cp -r ~/workspace/vagrant/scripts .; cp -r ~/workspace/vagrant/precise-php53-solr46/scripts ."
 alias vafy3='cp -r ~/workspace/vagrant/precise64lamp-solr46/Vagrantfile .; cp -r ~/workspace/vagrant/precise64lamp-solr46/scripts .'
 alias vafy4='cp -r ~/workspace/vagrant/precise64lamp-symfony/Vagrantfile .; cp -r ~/workspace/vagrant/precise64lamp-symfony/scripts .'
 alias vafy-D8="echo 'Box: PHP 5.5 (No Solr)'; cp -r ~/workspace/vagrant/trusty-php55/Vagrantfile .; cp -r ~/workspace/vagrant/scripts .; cp -r ~/workspace/vagrant/trusty-php55/scripts ."
